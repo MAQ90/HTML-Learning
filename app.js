@@ -1,0 +1,107 @@
+
+// function cook(){
+//     var a = prompt("Enter your desire dish");
+//     alert("bring" + a);
+// }
+// cook();
+
+
+
+
+
+
+// var num1 = prompt("Enter first num");
+// var num2 = prompt("Enter sec num");
+// var num3 = prompt("Enter third num"); 
+// function calc(num1, num2, num3){
+//     var b = (+num1 + +num2)*num3 ;
+//     b = parseInt(b);
+//     if(b = Number.isNaN){
+//         alert("Something went wrong, provide a valid number");
+//     }
+//     else{
+//         alert(b);
+//     }
+// }
+// calc(num1, num2, num3);
+
+
+
+
+
+// var num1 = prompt("Enter first num");
+// var num2 = prompt("Enter sec num");
+// var num3 = prompt("Enter third num"); 
+// function calc(num1, num2, num3){
+//     var b = (+num1 + +num2)*num3 ;
+    
+//     if(b/b != 1){
+//         alert("Something went wrong, provide a valid number");
+//     }
+//     else{
+//         alert(b);
+//     }
+// }
+// calc(num1, num2, num3);
+
+
+
+
+
+
+// var ingd1 = ['egg','salt','sugar'];
+// var ingd2 = ['water','egg','milk'];
+// var ingd3 = ['flour','sugar','milk'];
+// var allingd = [];
+
+// function combineIngrd(ing1, ing2, ing3){
+//     for(var i = 0; i < ing1.length; i++){
+//         if(allingd.indexOf(ing1[i]) == -1){
+//             allingd.push(ing1[i]);
+//         }
+//     }
+//         for(var i = 0; i < ing2.length; i++){
+//         if(allingd.indexOf(ing2[i]) == -1){
+//             allingd.push(ing2[i]);
+//         }
+//     }
+//         for(var i = 0; i < ing3.length; i++){
+//         if(allingd.indexOf(ing3[i]) == -1){
+//             allingd.push(ing3[i]);
+//         }
+//     }
+//     alert(allingd);
+// }
+// combineIngrd(ingd1, ingd2, ingd3);
+
+
+
+
+// var num = prompt("Enter the number");
+// function squareNum(number){
+//     result = number*number;
+//     return result;
+// }
+// var squarednum = squareNum(num);
+// alert(squarednum);
+
+// for (i = 0 ; i = 10 ; i++){
+//     for (x = 0 ; x = i ; )
+// }
+
+// function calc(num1, num2){
+//     alert((num1 + num2)*num2);
+// }
+// calc(2,2)
+
+// var numbers = [4, 9, 16, 25];
+
+// function myFunction() {
+//     x = document.getElementById("demo")
+//     x.innerHTML = numbers.map(Math.sqrt);
+// }
+
+function hello(){
+    document.write("hello world")
+}
+setInterval(hello,1000*60)
